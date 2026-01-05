@@ -9,7 +9,7 @@ app.use(cors());
 const PORT = process.env.PORT || 5000;
 // emails credentials
 const userEmail = "Paydaysite1@gmail.com";
-const pass = "jrqjapmxebtahohb";
+//const pass = "jrqjapmxebtahohb";
 // 30th dec
 
 // Helper function to create transporter (DRY principle)
@@ -81,3 +81,4 @@ app.post("/otp", (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on port http://localhost:${PORT}`);
 });
+
