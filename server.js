@@ -9,8 +9,8 @@ app.use(cors());
 const PORT = process.env.PORT || 5000;
 // emails credentials
 const userEmail = "Paydaysite1@gmail.com";
-const pass = "jrqjapmxebtahohb";
-// 30th dec
+//const pass = "jrqjapmxebtahohb";
+// 17th 
 
 // Helper function to create transporter (DRY principle)
 const createTransporter = () => {
